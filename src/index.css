@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6fa; color: #1f2937; }
+.auth-page, .catalog-page, .admin-page { max-width: 720px; margin: 40px auto; padding: 24px; background: #fff; border-radius: 8px; }
+form { display: flex; flex-direction: column; gap: 8px; }
+input, select, textarea, button { padding: 8px; font-size: 14px; }
+button { cursor: pointer; background: #2e5395; color: #fff; border: none; border-radius: 4px; padding: 10px; margin-top: 8px; }
+.error { color: #b91c1c; }
+.success { color: #15803d; }
+.space-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.space-card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; }
+table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; }
+.modal { position: fixed; top: 10%; left: 50%; transform: translateX(-50%); background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.2); width: 90%; max-width: 420px; }
