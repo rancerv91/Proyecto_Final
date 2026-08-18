@@ -42,7 +42,7 @@ npm test                   # Jest + Supertest, usa MongoDB en memoria
 > (requiere conexión a internet); en este entorno de generación no fue
 > posible descargarlo por las restricciones de red del sandbox, pero el
 > código fue verificado sintácticamente y el servidor Express arranca
-> y responde correctamente (`/api/health` → 200 OK). Al correrlo en tu
+> y responde correctamente (`/api/health` → 200 OK). Al correrlo en la
 > máquina o en GitHub Actions debería funcionar sin problema.
 
 ### Frontend
